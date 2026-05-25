@@ -1,0 +1,17 @@
+name: seedgg
+version: '${version}'
+main: com.johnseth97.seedgg.SeedggPlugin
+api-version: '1.21'
+author: johnseth97
+description: Opens the current world seed on seeds.gg.
+
+commands:
+  seedgg:
+    description: Open the current world seed on seeds.gg.
+    usage: /seedgg
+    permission: seedgg.use
+
+permissions:
+  seedgg.use:
+    description: Allows using /seedgg.
+    default: true

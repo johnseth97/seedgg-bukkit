@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+**/build/
+
+# Java
+*.class
+hs_err_pid*.log
+
+# IDEs
+.idea/
+# Local VS Code deploy overrides — each contributor sets their own host/path
+.vscode/settings.json
+*.iml
+*.ipr
+*.iws
+out/
+bin/
+.classpath
+.project
+.settings/
+
+# Deploy secrets — copy .env.example to .env and fill in your values
+.env
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+AGENT_INSTURCTIONS/
+.claude/
